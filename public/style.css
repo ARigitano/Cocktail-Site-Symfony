@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: #d7e1e9;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:6.5rem;
+    color: #26222c;
+    text-shadow: 3px 4px 10px grey;
+    font-family: 'Sigmar One', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.ingredients, .cocktails {
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px grey;;
+    border: 0px solid black;
+    background: #f8f7f5;
+    padding: 40px 0px;
+}
+
+.ingredients {
+    width: 250px;
+    margin: 10px;
+}
+
+.cocktails {
+    min-width: 40%;
+}
+
+.oneingredient, .onecocktail {
+    font-size: 1rem;
+    padding: 0px 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.oneingredient :hover{
+    color:gold;
+}
+
+h2 {
+    margin-bottom: -10px;
+    font-family: 'Sigmar One', cursive;
+}
+
+input[type=checkbox]{
+    appearance: none;
+    background: #d7e1e9;
+	border: 1px solid black;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+    margin-right:15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+input[type=checkbox]:checked {
+    background: #26222c;
+}
+
+
